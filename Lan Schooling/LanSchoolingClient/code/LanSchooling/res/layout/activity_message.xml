@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/view1"
+        android:text="@string/sendMsgButton" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/view1"
+        android:layout_toLeftOf="@+id/sendMsg"
+        android:layout_toStartOf="@+id/sendMsg"
+        android:ems="10"
+        android:hint="@string/msg" >
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignStart="@+id/view1"
+        android:layout_alignLeft="@+id/view1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:background="@android:color/darker_gray" />
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view1"
+        android:layout_below="@+id/view2" >
+    
+    <LinearLayout
+        android:id="@+id/chatinfo"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:orientation="vertical" >
+
+	</LinearLayout>
+	
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/desc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignEnd="@+id/view2" 
+        android:src="@drawable/attch" />
+
+</RelativeLayout>

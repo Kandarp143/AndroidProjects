@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/mouse_right"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBaseline="@+id/mouse_center"
+        android:layout_alignBottom="@+id/mouse_center"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="29dp"
+        android:background="@drawable/mouse_rightx"/>
+
+    <Button
+        android:id="@+id/mouse_left"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignBaseline="@+id/mouse_center"
+        android:layout_alignBottom="@+id/mouse_center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:background="@drawable/mouse_leftx" />
+
+    <Button
+        android:id="@+id/mouse_tr"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/mouse_right"
+        android:layout_alignTop="@+id/mouse_up"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/mouse_trx" />
+
+    <Button
+        android:id="@+id/mouse_tl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/mouse_tr"
+        android:layout_alignBottom="@+id/mouse_tr"
+        android:layout_alignLeft="@+id/mouse_left"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/mouse_tlx"/>
+
+    <Button
+        android:id="@+id/mouse_br"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/mouse_bl"
+        android:layout_alignBottom="@+id/mouse_bl"
+        android:layout_alignLeft="@+id/mouse_tr"
+        android:background="@drawable/mouse_brx"/>
+
+    <Button
+        android:id="@+id/mouse_leftclick"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="14dp"
+        android:background="@drawable/mouse_leftclickx"/>
+
+    <Button
+        android:id="@+id/mouse_rightclick"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@+id/mouse_leftclick"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/mouse_rightclickx" />
+
+    <Button
+        android:id="@+id/mouse_center"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/mouse_tr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mouse_centerx" />
+
+    <Button
+        android:id="@+id/mouse_up"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/mouse_down"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/mouse_upx" />
+
+    <Button
+        android:id="@+id/mouse_bl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/mouse_tl"
+        android:layout_below="@+id/mouse_center"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/mouse_blx" />
+
+    <Button
+        android:id="@+id/mouse_down"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/mouse_br"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mouse_downx" />
+
+</RelativeLayout>

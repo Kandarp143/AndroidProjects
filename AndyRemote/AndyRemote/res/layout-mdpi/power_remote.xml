@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA" >
+    <Button
+        android:id="@+id/power_sleep"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/power_shutdown"
+        android:layout_alignBottom="@+id/power_shutdown"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/power_shutdown"
+        android:background="@drawable/power_sleepx" />
+
+    <Button
+        android:id="@+id/power_logoff"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/power_shutdown"
+        android:layout_alignBottom="@+id/power_shutdown"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/power_shutdown"
+        android:background="@drawable/power_logoffx"/>
+
+    <Button
+        android:id="@+id/app_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/app_closex" />
+
+    <Button
+        android:id="@+id/power_shutdown"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/power_shutdownx" />
+
+    <Button
+        android:id="@+id/power_hibernet"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/power_sleep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/power_hibernetx" />
+
+    <Button
+        android:id="@+id/power_restart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/power_shutdown"
+        android:layout_alignLeft="@+id/power_hibernet"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/power_restartx" />
+    
+
+</RelativeLayout>

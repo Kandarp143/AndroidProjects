@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA" >
+
+    <Button
+        android:id="@+id/vlc_next"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignBaseline="@+id/vlc_play_pause"
+        android:layout_alignBottom="@+id/vlc_play_pause"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/vlc_play_pause"
+        android:background="@drawable/vlc_nextx" />
+
+    <Button
+        android:id="@+id/vlc_previous"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignBaseline="@+id/vlc_play_pause"
+        android:layout_alignBottom="@+id/vlc_play_pause"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/vlc_play_pause"
+        android:background="@drawable/vlc_previousx" />
+
+    <Button
+        android:id="@+id/vlc_stop"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/vlc_play_pause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vlc_stopx" />
+
+    <Button
+        android:id="@+id/vlc_ratio"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_full_screen"
+        android:layout_alignBottom="@+id/vlc_full_screen"
+        android:layout_alignLeft="@+id/vlc_next"
+        android:layout_marginLeft="7dp"
+        android:background="@drawable/vlc_ratiox" />
+
+    <Button
+        android:id="@+id/vlc_audio"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_full_screen"
+        android:layout_alignBottom="@+id/vlc_full_screen"
+        android:layout_alignRight="@+id/vlc_previous"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/vlc_audiox" />
+
+    <Button
+        android:id="@+id/vlc_forward"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_stop"
+        android:layout_alignBottom="@+id/vlc_stop"
+        android:layout_alignLeft="@+id/vlc_ratio"
+        android:background="@drawable/vlc_forwardx" />
+
+    <Button
+        android:id="@+id/vlc_backward"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_stop"
+        android:layout_alignBottom="@+id/vlc_stop"
+        android:layout_alignRight="@+id/vlc_audio"
+        android:background="@drawable/vlc_backwardx" />
+
+    <Button
+        android:id="@+id/app_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/app_closex" />
+
+    <EditText
+        android:id="@+id/seek_hour"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/vlc_previous"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21dp"
+        android:background="#F67F00"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="HH"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/seek_minute"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/seek_hour"
+        android:layout_alignBottom="@+id/seek_hour"
+        android:layout_toRightOf="@+id/vlc_backward"
+        android:background="#F67F00"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="MM"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/vlc_seek"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/seek_second"
+        android:layout_alignLeft="@+id/vlc_forward"
+        android:background="#F67F00"
+        android:gravity="center"
+        android:text="GO" />
+
+    <Button
+        android:id="@+id/vlc_plus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_volume"
+        android:layout_alignBottom="@+id/vlc_volume"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/vlc_plusx" />
+
+    <Button
+        android:id="@+id/vlc_volume"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/vlc_seek"
+        android:layout_alignRight="@+id/vlc_previous"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/vlc_volumex" />
+
+    <Button
+        android:id="@+id/vlc_minus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/vlc_plus"
+        android:layout_alignBottom="@+id/vlc_plus"
+        android:layout_alignLeft="@+id/vlc_next"
+        android:background="@drawable/vlc_minusx" />
+
+    <Button
+        android:id="@+id/vlc_play_pause"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/vlc_full_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/vlc_play_pausex" />
+
+    <Button
+        android:id="@+id/vlc_full_screen"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/vlc_stop"
+        android:layout_below="@+id/app_close"
+        android:background="@drawable/vlc_full_screenx" />
+
+    <EditText
+        android:id="@+id/seek_second"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/seek_minute"
+        android:layout_alignBottom="@+id/seek_minute"
+        android:layout_toLeftOf="@+id/vlc_next"
+        android:background="#F67F00"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="SS"
+        android:inputType="number" />
+    
+</RelativeLayout>

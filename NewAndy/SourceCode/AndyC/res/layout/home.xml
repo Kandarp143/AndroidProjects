@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA" >
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/wmp"
+        android:layout_alignBottom="@+id/wmp"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/wmp"
+        android:background="@drawable/powerx" />
+
+    <TextView
+        android:id="@+id/ppt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ppt"
+        android:layout_below="@+id/ppt"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/mouse_msg"
+        android:text="@string/ppt_msg"
+        android:textColor="#3b5998"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/wmp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/wmpx" />
+
+    <TextView
+        android:id="@+id/power_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/power"
+        android:layout_alignRight="@+id/mouse"
+        android:layout_below="@+id/power"
+        android:layout_marginTop="18dp"
+        android:text="@string/pow_msg"
+        android:textColor="#3b5998"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/wmp_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/power_msg"
+        android:layout_alignBottom="@+id/power_msg"
+        android:layout_alignLeft="@+id/wmp"
+        android:layout_toLeftOf="@+id/power"
+        android:text="@string/wmp_msg"
+        android:textColor="#3b5998"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ppt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/wmp_msg"
+        android:layout_marginTop="47dp"
+        android:layout_toLeftOf="@+id/power"
+        android:background="@drawable/pptx" />
+
+    <Button
+        android:id="@+id/mouse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/ppt"
+        android:layout_alignBottom="@+id/ppt"
+        android:layout_alignLeft="@+id/power"
+        android:background="@drawable/gamesx" />
+
+    <TextView
+        android:id="@+id/mouse_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ppt_msg"
+        android:layout_alignBottom="@+id/ppt_msg"
+        android:layout_alignLeft="@+id/mouse"
+        android:layout_alignRight="@+id/mouse"
+        android:text="@string/mou_msg"
+        android:textColor="#3b5998"
+        android:textSize="20sp" />
+
+</RelativeLayout>

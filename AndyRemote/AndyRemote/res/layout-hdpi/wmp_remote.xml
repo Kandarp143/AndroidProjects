@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA" >
+    
+    
+        <Button
+        android:id="@+id/wmp_previous"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/wmp_play_pause"
+        android:layout_alignBottom="@+id/wmp_play_pause"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="41dp"
+        android:background="@drawable/wmp_preveousx" />
+
+    <Button
+        android:id="@+id/wmp_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/wmp_play_pause"
+        android:layout_alignBottom="@+id/wmp_play_pause"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:background="@drawable/wmp_nextx"/>
+    
+    <Button
+        android:id="@+id/app_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/app_closex" />
+
+    <Button
+        android:id="@+id/wmp_stoop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/app_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/wmp_stopx" />
+
+    <Button
+        android:id="@+id/wmp_play_pause"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/wmp_stoop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/wmp_play_pausex" />
+
+    <Button
+        android:id="@+id/wmp_volume"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/wmp_previous"
+        android:layout_below="@+id/wmp_play_pause"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/wmp_volumex" />
+
+    <Button
+        android:id="@+id/wmp_plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/wmp_volume"
+        android:layout_alignBottom="@+id/wmp_volume"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/wmp_plusx" />
+
+    <Button
+        android:id="@+id/wmp_minus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/wmp_plus"
+        android:layout_alignBottom="@+id/wmp_plus"
+        android:layout_alignRight="@+id/wmp_next"
+        android:background="@drawable/wmp_minusx"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA" >
+
+    <Button
+        android:id="@+id/power_sleep"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/power_shutdown"
+        android:layout_alignBottom="@+id/power_shutdown"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/power_shutdown"
+        android:background="@drawable/power_sleepx" />
+
+    <Button
+        android:id="@+id/power_logoff"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBaseline="@+id/power_shutdown"
+        android:layout_alignBottom="@+id/power_shutdown"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/power_shutdown"
+        android:background="@drawable/power_logoffx"/>
+
+     <Button
+         android:id="@+id/power_hibernet"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="72dp"
+         android:background="@drawable/power_hibernetx" />
+
+     <Button
+         android:id="@+id/power_restart"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_above="@+id/power_shutdown"
+         android:layout_alignLeft="@+id/power_hibernet"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/power_restartx" />
+
+     <Button
+         android:id="@+id/power_shutdown"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:layout_above="@+id/power_hibernet"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="24dp"
+         android:background="@drawable/power_shutdownx" />
+    
+</RelativeLayout>

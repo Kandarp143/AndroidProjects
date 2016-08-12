@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FAFAFA">
+    
+
+    <Button
+        android:id="@+id/ppt_next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/ppt_play"
+        android:layout_alignBottom="@+id/ppt_play"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/ppt_play"
+        android:background="@drawable/ppt_nextx" />
+    <Button
+        android:id="@+id/app_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/app_closex" />
+
+    <Button
+        android:id="@+id/ppt_goto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/ppt_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/ppt_gotox" />
+
+    <Button
+        android:id="@+id/ppt_preveous"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBaseline="@+id/ppt_play"
+        android:layout_alignBottom="@+id/ppt_play"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/ppt_play"
+        android:background="@drawable/ppt_preveousx" />
+
+    <Button
+        android:id="@+id/ppt_stop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/ppt_goto"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/ppt_stopx" />
+
+    <Button
+        android:id="@+id/ppt_play"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/ppt_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/ppt_playx" />
+    
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity" >
+     <TextView
+        android:id="@+id/login_ip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="@string/ip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#58ACFA"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/login_port_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/port"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#58ACFA"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/login_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_ip_text"
+        android:layout_alignRight="@+id/login_ip_text"
+        android:layout_below="@+id/login_port_text"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#58ACFA"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/login_ip"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_ip_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#58ACFA"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/login_connect"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/login_port"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="#58ACFA"
+        android:text="@string/connect"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+</RelativeLayout>

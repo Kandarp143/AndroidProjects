@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/abs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/lc"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="49dp"
+            android:layout_x="10dp"
+            android:layout_y="368dp"
+            android:background="#58ACFA"
+            android:text="@string/lbut"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rc"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="49dp"
+            android:layout_x="164dp"
+            android:layout_y="368dp"
+            android:background="#58ACFA"
+            android:text="@string/rbut"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/touch_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="172dp"
+            android:text="@string/touch"
+            android:textColor="#C0C0C0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

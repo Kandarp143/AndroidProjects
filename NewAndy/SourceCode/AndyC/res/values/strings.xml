@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Andy Remote</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip">IP Address</string>
+    <string name="port">Port</string>
+    <string name="connect">Connect</string>
+    <string name="mou_msg">Mouse Control</string>
+    <string name="ppt_msg">PowerPoint Remote</string>
+    <string name="wmp_msg">MediaPlayer Remote</string>
+    <string name="pow_msg">Power Control</string>
+ <string name="lbut">Left Click</string>
+     <string name="rbut">Right Click</string>
+       <string name="touch">Virtual Mouse</string>
+ 
+</resources>

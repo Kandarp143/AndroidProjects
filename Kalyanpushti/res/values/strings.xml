@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="en">
+
+    <string translatable="false" name="app_name">Kalyanpushti</string>
+    <string translatable="false" name="action_settings">Settings</string>
+    <string translatable="false" name="hello_world">Hello world!</string>
+    <string name="Kalyan_Pushti">Kalyanpushti</string>
+    <string name="Contact_Us">Contact Us</string>
+    <string name="Darshan_Time">Darshan Time</string>
+    <string name="darshantimeaddress">Address</string>
+    <string name="Pushtimarg">Pushtimarg</string>
+    <string name="Activities">Activities</string>
+    <string name="Darshan">Darshan</string>
+    <string name="utsav">Utsav</string>
+    <string name="DarshanImage">Kalyanpushti</string>
+    <string name="Varsotsav">Varshotsav</string>
+    <string name="Ashthsama">Shree Kalyanraiji ni jhakhi </string>
+    <string name="website">www.shreekalyanpushti.org</string>
+    <string name="c_header">www.shreekalyanpushti.org</string>
+    <string name="c_text">Shree Kalyanraiji Mandir</string>
+    <string name="c_phno">Ph: 0265&#8211;2423322/2426942/2427002</string>
+    <string name="c_add">Address: Shashtpeeth,Shree Kalyanraiji Mandir, Bank road,Mandvi,Vadodara.-19</string>
+    <string name="c_feedback">Give your Feedback</string>
+    <string name="c_email">info@shreekalyanpushti.org</string>
+    <string name="a_main">Get Location</string>
+    <string name="cname">Utsav</string>
+    <string name="desc"></string>
+    
+    
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lan Schooling</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc"></string>
+  
+    <!-- Hint -->
+	<string name="ipadd">Enter Server IP Address</string>
+	<string name="portnum">Enter Your Port Number</string>
+	<string name="nameLogin">Enter Your Name</string>
+	<string name="pwdLogin">Enter Your Password</string>
+	<string name="msg">Write Your Message Here</string>
+	
+	<!-- Label -->
+	<string name="conncetButton">Connect</string>
+	<string name="usernameLabel">UserName</string>
+	<string name="passwordLabel">Password</string>
+	<string name="loginButton">Login</string>
+	<string name="signupButton">SignUp</string>
+	<string name="sendMsgButton">Send</string>
+	<string name="onlineUsersLabel">Online Users</string>
+</resources>

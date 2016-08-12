@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shreejienterpriseinc.kalyanpushti"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="com.example.k.permission.MAPS_RECEIVE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	
+	<supports-screens android:smallScreens="true" 
+          android:normalScreens="true" 
+          android:largeScreens="true"
+          android:resizeable="true"
+          android:anyDensity="true" />
+	
+	<permission
+        android:name="com.example.googlemp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallogo"
+        android:label="@string/app_name"
+        android:clearTaskOnLaunch="true"
+		android:theme="@android:style/Theme.Translucent.NoTitleBar">
+         <!-- Splash screen -->
+        <activity
+            android:name="com.example.k.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <!-- Main activity -->
+          
+        <activity android:name="com.example.k.Main" android:label="@string/app_name" android:screenOrientation="portrait" android:launchMode="singleTop"/>  
+        <activity android:name="com.example.k.Darshan" android:label="Darshan" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.Ashthsama" android:label="Ashtsama" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.Varshotsav" android:label="Hindola" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.Darshantime" android:label="Darshantime" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.List_Darshantime" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.Darshantime_Detail" android:label="Detail" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+        <activity android:name="com.example.k.Pushtimarg" android:label="Darshantime" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.List_Pushtimarg" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+        <activity android:name="com.example.k.Pushtimarg_Detail" android:label="Detail" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+       	<activity android:name="com.example.k.ContactUs" android:label="ContactUs" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+        <activity android:name="com.example.k.WebSite" android:label="@string/app_name" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+        <activity android:name="com.example.k.Activities" android:label="Darshantime" android:screenOrientation="portrait" android:launchMode="singleTop"/>     
+        <activity android:name="com.example.k.List_Activities" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+        <activity android:name="com.example.k.Activities_Detail" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+		<activity android:name="com.example.k.Utsav" android:label="@string/app_name" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+		<activity android:name="com.example.k.List_Utsav" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+	    <activity android:name="com.example.k.GPSTracker" android:label="List" android:screenOrientation="portrait" android:launchMode="singleTop"/>
+				
+		
+        
+
+    </application>
+
+</manifest>

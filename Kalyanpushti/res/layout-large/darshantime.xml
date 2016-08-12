@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Darshan_Time"
+        android:layout_marginTop="30dp"
+        android:textColor="#81050a"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   <ListView
+        android:id="@+id/listView1"
+        android:layout_width="430dp"
+        android:layout_height="600dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#9b6a38"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>
